@@ -9,7 +9,5 @@ import { myFunction } from './functions/resource';
 defineBackend({
   auth,
   data,
-  functions: {
-    myFunction,
-  },
+  myFunction,
 });
